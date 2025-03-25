@@ -1,0 +1,1 @@
+$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server localhost:9092 --topic invoice --create --partitions 5 --replication-factor 1 --config segment.bytes=1000000
